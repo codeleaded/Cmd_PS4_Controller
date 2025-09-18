@@ -1,7 +1,7 @@
 #include "/home/codeleaded/System/Static/Library/PS4_Controller.h"
 
 int main() {
-    char* dev = "/dev/input/event22";
+    char* dev = "/dev/input/by-id/usb-Sony_Interactive_Entertainment_Wireless_Controller-if03-event-joystick";
     PS4_Controller ps4c = PS4_Controller_New(dev);
 
     while (1) {
